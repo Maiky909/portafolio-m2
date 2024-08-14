@@ -1,0 +1,19 @@
+.fuente-1 {
+  font-family: "Anek Devanagari", sans-serif;
+  font-weight: bold;
+  /* font-size: 1.5em; */
+  /* color: #333; */
+}
+
+/* .nav-p {
+  padding: 30px 50%;
+} */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item .nav-link {
+    position: relative;
+    text-align: left;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+  }
+}
