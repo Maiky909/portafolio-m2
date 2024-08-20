@@ -17,3 +17,50 @@
     width: 150px;
   }
 }
+
+.timeline {
+  border-left: 2px solid #333;
+}
+.timeline-list {
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-icon {
+  position: absolute;
+  left: -53px;
+  background-color: hsl(217, 88.2%, 90%);
+  border: 1px solid #333;
+  color: #333;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Espacio entre los elementos */
+  margin-top: 20px;
+}
+
+.grid-item {
+  background-color: #1e1e1e; /* Color de fondo */
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 10px; /* Bordes redondeados */
+}
