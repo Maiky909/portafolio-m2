@@ -58,9 +58,13 @@
 }
 
 .grid-item {
-  background-color: #1e1e1e; /* Color de fondo */
+  background-color: #cecacaa1; /* Color de fondo */
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
+  font-weight: bold;
   border-radius: 10px; /* Bordes redondeados */
+}
+.card {
+  border-radius: 20px;
 }
