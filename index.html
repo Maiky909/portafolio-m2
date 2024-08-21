@@ -13,7 +13,7 @@
 
 
     <!-- CSS LOCAL -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse ms-5" id="navbarDark">
-                <ul class="navbar-nav me-auto mb-2 mb-xl-0 ms-auto p-2 text-center">
+                <ul class="navbar-nav me-auto mb-2 ms-auto p-2 text-center">
                     <li class="nav-item me-5">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -60,6 +60,7 @@
         </div>
     </nav>
 
+    <!-- PRESENTACIÓN -->
     <main class="container-fluid bg-primary-subtle mt-5">
         <div class="row">
             <div class="col m-5">
@@ -70,12 +71,15 @@
                     de manera creativa.
                 </p>
                 <p>Estoy ubicado en Santiago, Chile. </p>
-                <button class="btn btn-dark"> <i class="bi bi-envelope-check-fill"></i> Contáctame </button>
-                <button class="btn btn-dark"> <i class="bi bi-arrow-down-circle-fill"></i> Descargar CV</button>
+                <div>
+                    <button class="btn btn-dark"> <i class="bi bi-envelope-check-fill"></i> Contáctame </button>
+                    <button class="btn btn-dark"> <i class="bi bi-arrow-down-circle-fill"></i> Descargar CV</button>
+                </div>
             </div>
         </div>
     </main>
 
+    <!-- EXPERIENCIA LABORAL -->
     <section class="container-fluid bg-secondary-subtle">
         <div class="row">
             <div class="col m-5">
@@ -88,7 +92,7 @@
                         <!-- ACTUALIDAD -->
                         <li class="timeline-item mb-5">
                             <span class="timeline-icon">
-                                <i class="bi bi-briefcase-fill"></i>
+                                <img src="/assets/img/code.png" alt="" width="20" height="20">
                             </span>
 
                             <h5 class="fw-bold">Analista Desarrollador</h5>
@@ -104,7 +108,8 @@
                         <!-- MANKUK -->
                         <li class="timeline-item mb-5">
                             <span class="timeline-icon">
-                                <i class="bi bi-briefcase-fill"></i>
+                                <img src="/assets/img/tech-service.png" alt="" width="20" height="20">
+
                             </span>
 
                             <h5 class="fw-bold">Analista TI</h5>
@@ -120,7 +125,7 @@
                         <!-- PRACTICA 1 -->
                         <li class="timeline-item mb-5">
                             <span class="timeline-icon">
-                                <i class="bi bi-briefcase-fill"></i>
+                                <img src="/assets/img/web-development.png" alt="" width="20" height="20">
                             </span>
 
                             <h5 class="fw-bold">Desarrollador Web</h5>
@@ -136,7 +141,7 @@
                         <!-- PRACTICA 2 -->
                         <li class="timeline-item mb-5">
                             <span class="timeline-icon">
-                                <i class="bi bi-briefcase-fill"></i>
+                                <img src="/assets/img/technical-support.png" alt="" width="20" height="20">
                             </span>
 
                             <h5 class="fw-bold">Soporte TI</h5>
@@ -161,6 +166,7 @@
         </div>
     </section>
 
+    <!-- PROYECTOS -->
     <section class="container-fluid bg-primary-subtle">
         <div class="row">
             <div class="col m-5">
@@ -182,95 +188,193 @@
 
     </section>
 
+    <!-- TECNOLOGÍAS  -->
     <section class="container-fluid bg-secondary-subtle py-5">
-        <!-- <div class="row">
-            <div class="col">
-                <h1>Tecnologías</h1>
-                <div class="row">
-                    <h5>Frontend</h5>
-                    <div class="col">
-                        <ul class="">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Bootstrap</li>
-                            <li>React</li>
-                            <li>TailwindCSS</li>
-                        </ul>
-                    </div>
 
-                </div>
-            </div>
-        </div> -->
         <div class="row justify-content-center">
-            <div class="col-3">
-                <div class="card">
+            <h1 class="p-5">Tecnologías</h1>
+            <!-- FRONTEND -->
+            <div class="col-xs-12 col-3 mb-1 mb-5" style="width: 400px;">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h3>Frontend</h3>
+                        <h3 class="text-center">Frontend</h3>
                         <div class="grid-container">
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/frontend/html.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <div>
+                                    <span>HTML</span>
+                                </div>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/frontend/css.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>CSS</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/frontend/js.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>JavaScript</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/frontend/tailwind.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>TailwindCSS</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
-                            </div>
-                            <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/frontend/bootstrap.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Bootstrap</span>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card">
+
+            <!-- BACKEND  -->
+            <div class="col-xs-12 col-3 mb-1 mb-5" style="width: 400px;">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h3>Backend</h3>
+                        <h3 class="text-center">Backend</h3>
                         <div class="grid-container">
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/python.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Python</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/django.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Django</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/drf.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>DRF</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/mongodb.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Mongo DB</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/firebase.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Firebase</span>
                             </div>
                             <div class="grid-item">
-                                <i class="bi bi-1-circle-fill"></i>
-                                <p>HTML</p>
+                                <img src="/assets/img/skills/backend/sqlserver.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>SQL Server</span>
                             </div>
-
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/backend/postgressql.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>PostgreSQL</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- APRENDIENDO -->
+            <div class="col-xs-12 col-3 mb-1 mb-5" style="width: 400px;">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="text-center">Aprendiendo</h3>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/astro.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Astro</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/docker.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Docker</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/react.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>React</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/vue.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/redis.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Redis</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/learning/figma.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HERRAMIENTAS  -->
+            <div class="col-xs-12 col-3 mb-1 mb-5" style="width: 400px;">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="text-center">Herramientas</h3>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/git.png" alt="" width="50" height="50" class="mb-2">
+                                <div>
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/github.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/bitbucket.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Bitbucket</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/vscode.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>VSCode</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/wordpress.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>WordPress</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/bash.png" alt="" width="50" height="50" class="mb-2">
+                                <span>Bash</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/nginx.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Nginx</span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/gunicorn.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Gunicorn </span>
+                            </div>
+                            <div class="grid-item">
+                                <img src="/assets/img/skills/tools/powerplatform.png" alt="" width="50" height="50"
+                                    class="mb-2">
+                                <span>Power Platform</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
@@ -278,6 +382,7 @@
 
     </section>
 
+    <!-- SOBRE MI  -->
     <section class="container-fluid bg-primary-subtle">
         <div class="row">
             <div class="col m-5">
@@ -287,10 +392,31 @@
 
     </section>
 
+    <!-- CONTACTO  -->
     <section class="container-fluid bg-secondary-subtle">
         <div class="row">
             <div class="col m-5">
+                <img src="/assets/img/logo-mv.png" alt="">
+            </div>
+            <div class="col m-5">
                 <h1>Contacto</h1>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                </form>
             </div>
         </div>
 
