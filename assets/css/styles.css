@@ -1,22 +1,14 @@
+section,
+main {
+  scroll-margin-top: 100px;
+}
+
 .fuente-1 {
   font-family: "Anek Devanagari", sans-serif;
   font-weight: bold;
   /* font-size: 1.5em; */
   /* color: #333; */
 }
-
-/* .nav-p {
-  padding: 30px 50%;
-} */
-/* @media (max-width: 768px) {
-  .navbar-nav .nav-item .nav-link {
-    position: relative;
-    text-align: left;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
-  }
-} */
 
 .timeline {
   border-left: 2px solid #333;
@@ -50,7 +42,7 @@
   justify-content: center;
 }
 
-.card {
+.card-skill {
   border-radius: 20px;
   border-width: 1px;
   border-color: rgb(15 23 42 /1);
@@ -83,6 +75,9 @@
 .img-skill {
   width: 3rem;
   height: 3rem;
+}
+.text-skill {
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 main {
   /* height: calc(100vh - 3rem); */

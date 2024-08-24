@@ -22,6 +22,10 @@
 
 </head>
 
+<style>
+
+</style>
+
 <body>
 
     <!-- NAVBAR -->
@@ -38,22 +42,22 @@
             <div class="collapse navbar-collapse ms-5" id="navbarDark">
                 <ul class="navbar-nav me-auto mb-2 ms-auto p-1 fs-5">
                     <li class="nav-item me-5">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Sobre Mi</a>
+                        <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Tecnologías</a>
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
                     </li>
                     <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +65,7 @@
     </nav>
 
     <!-- PRESENTACIÓN -->
-    <main class="container-fluid bg-primary-subtle">
+    <main class="container-fluid bg-primary-subtle" id="home">
         <div class="row">
             <div class="col m-5">
                 <h1>Hola, Soy Mike Vásquez</h1>
@@ -81,7 +85,7 @@
     </main>
 
     <!-- EXPERIENCIA LABORAL -->
-    <section class="container-fluid bg-secondary-subtle">
+    <section class="container-fluid bg-secondary-subtle" id="experiencia">
         <div class="row">
             <div class="col m-5">
                 <h1 class="mb-5">Experiencia Laboral</h1>
@@ -168,59 +172,86 @@
     </section>
 
     <!-- PROYECTOS -->
-    <section class="container-fluid bg-primary-subtle">
-        <div class="row">
-            <div class="col m-5">
-                <h1>Proyectos</h1>
-                <article>
-
-                </article>
-                <!-- <ul>
-                    <li>Nattour</li>
-                    <li>Matrix</li>
-                    <li>Empresas</li>
-                    <li>Prácticas</li>
-                </ul> -->
-                <ul>
-
-                </ul>
+    <section class="container-fluid bg-primary-subtle" id="proyectos">
+        <h1 class="ms-5 pt-5">Proyectos</h1>
+        <div class="row d-flex justify-content-center mx-auto mt-5 pb-5">
+            <div class="col-md-3 d-flex justify-content-center mb-5 mb-md-0">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/projects/bolsa-horas.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cargas de Horas</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium ut
+                            quasi repudiandae ipsa commodi. Deleniti, quod laudantium. Ullam, recusandae at ipsum eaque
+                            quibusdam nesciunt rem ducimus voluptates reprehenderit deserunt ad.</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Ver Aquí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center  mb-5 mb-md-0">
+                <div class=" card" style="width: 18rem;">
+                    <img src="assets/img/projects/bolsa-horas.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, fugiat
+                            impedit repudiandae error corporis tempora id iste ex aperiam. Nam, omnis adipisci! Ex in
+                            accusantium deleniti expedita exercitationem, cupiditate totam!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Ver Aquí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center  mb-5 mb-md-0">
+                <div class=" card" style="width: 18rem;">
+                    <img src="assets/img/projects/bolsa-horas.png" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam ex
+                            laboriosam non magnam facere dolore tenetur minus expedita exercitationem, amet totam labore
+                            porro quos aperiam, neque consectetur distinctio quo?</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Ver Aquí</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
 
     <!-- TECNOLOGÍAS  -->
-    <section class="container-fluid bg-secondary-subtle">
+    <section class="container-fluid bg-secondary-subtle" id="tecnologias">
 
         <div class="row justify-content-center">
             <h1 class="p-5">Tecnologías</h1>
             <!-- FRONTEND -->
             <div class="col-xs-12 col-3 mb-1 mb-5" style="width: 400px;">
-                <div class="card">
+                <div class="card card-skill">
                     <div class="card-body">
                         <h3 class="text-center mb-5">Frontend</h3>
                         <ul class="grid-container ul-grid">
                             <li class="grid-item">
                                 <img src="assets/img/skills/frontend/html.png" alt="" class="img-skill mb-2">
                                 <div>
-                                    <span class="text-sm w-100 text-center">HTML</span>
+                                    <span class="text-skill w-100 text-center">HTML</span>
                                 </div>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/frontend/css.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">CSS</span>
+                                <span class="text-skill w-100 text-center">CSS</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/frontend/js.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">JavaScript</span>
+                                <span class="text-skill w-100 text-center">JavaScript</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/frontend/tailwind.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">TailwindCSS</span>
+                                <span class="text-skill w-100 text-center">TailwindCSS</span>
                             </li>
                             <li class="grid-item">
-                                <img src="assets/img/skills/frontend/bootstrap.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Bootstrap</span>
+                                <img src="assets/img/skills/frontend/Bootstrap.png" alt="" class="img-skill mb-2">
+                                <span class="text-skill w-100 text-center">Bootstrap</span>
                             </li>
 
                         </ul>
@@ -230,37 +261,37 @@
 
             <!-- BACKEND  -->
             <div class="col-xs-12 col-3 mb-5" style="width: 400px;">
-                <div class="card">
+                <div class="card card-skill">
                     <div class="card-body">
                         <h3 class="text-center mb-5">Backend</h3>
                         <ul class="grid-container ul-grid">
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/python.png" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Python</span>
+                                <span class="text-skill w-100 text-center">Python</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/django.png" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Django</span>
+                                <span class="text-skill w-100 text-center">Django</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/drf.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">DRF</span>
+                                <span class="text-skill w-100 text-center">DRF</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/mongodb.png" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Mongo DB</span>
+                                <span class="text-skill w-100 text-center">Mongo DB</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/firebase.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Firebase</span>
+                                <span class="text-skill w-100 text-center">Firebase</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/sqlserver.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">SQL Server</span>
+                                <span class="text-skill w-100 text-center">SQL Server</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/backend/postgressql.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">PostgreSQL</span>
+                                <span class="text-skill w-100 text-center">PostgreSQL</span>
                             </li>
                         </ul>
                     </div>
@@ -269,34 +300,34 @@
 
             <!-- APRENDIENDO -->
             <div class="col-xs-12 col-3 mb-5" style="width: 400px;">
-                <div class="card">
+                <div class="card card-skill">
                     <div class="card-body">
                         <h3 class="text-center mb-5">Aprendiendo</h3>
                         <ul class="grid-container ul-grid">
                             <li class="grid-item">
                                 <img src="assets/img/skills/learning/astro.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Astro</span>
+                                <span class="text-skill w-100 text-center">Astro</span>
                             </li>
                             <li class=" grid-item">
                                 <img src="assets/img/skills/learning/docker.png" alt="" width="50" height="50"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">Docker</span>
+                                <span class="text-skill w-100 text-center">Docker</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/learning/react.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">React</span>
+                                <span class="text-skill w-100 text-center">React</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/learning/vue.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Vue.js</span>
+                                <span class="text-skill w-100 text-center">Vue.js</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/learning/redis.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Redis</span>
+                                <span class="text-skill w-100 text-center">Redis</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/learning/figma.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Figma</span>
+                                <span class="text-skill w-100 text-center">Figma</span>
                             </li>
                         </ul>
                     </div>
@@ -305,53 +336,53 @@
 
             <!-- HERRAMIENTAS  -->
             <div class="col-xs-12 col-3 mb-5" style="width: 400px;">
-                <div class="card">
+                <div class="card card-skill">
                     <div class="card-body">
                         <h3 class="text-center mb-5">Herramientas</h3>
                         <ul class="grid-container ul-grid">
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/git.png" alt="img-git" class="img-skill mb-2">
                                 <div>
-                                    <span class="text-sm w-100 text-center">Git</span>
+                                    <span class="text-skill w-100 text-center">Git</span>
                                 </div>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/github.png" alt="img-github" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">GitHub</span>
+                                <span class="text-skill w-100 text-center">GitHub</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/bitbucket.png" alt="" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">Bitbucket</span>
+                                <span class="text-skill w-100 text-center">Bitbucket</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/vscode.png" alt="" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">VSCode</span>
+                                <span class="text-skill w-100 text-center">VSCode</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/wordpress.png" alt="" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">WordPress</span>
+                                <span class="text-skill w-100 text-center">WordPress</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/bash.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Bash</span>
+                                <span class="text-skill w-100 text-center">Bash</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/nginx.png" alt="" class="img-skill mb-2">
-                                <span class="text-sm w-100 text-center">Nginx</span>
+                                <span class="text-skill w-100 text-center">Nginx</span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/gunicorn.png" alt="" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">Gunicorn </span>
+                                <span class="text-skill w-100 text-center">Gunicorn </span>
                             </li>
                             <li class="grid-item">
                                 <img src="assets/img/skills/tools/powerplatform.png" alt="" class="img-skill mb-2"
                                     class="mb-2">
-                                <span class="text-sm w-100 text-center">Power Platform</span>
+                                <span class="text-skill w-100 text-center">Power Platform</span>
                             </li>
                         </ul>
                     </div>
@@ -366,38 +397,53 @@
     </section>
 
     <!-- SOBRE MI  -->
-    <section class="container-fluid bg-primary-subtle">
+    <section class="container-fluid bg-primary-subtle" id="sobre-mi">
         <div class="row">
             <div class="col m-5">
-                <h1>Sobre Mi</h1>
+                <h1 class="mb-5">Sobre Mi</h1>
+                <p>
+                    Mi nombre es Mike Vásquez <strong>Ingeniero en Informática</strong>,
+                    Actualmente trabajo como
+                    <strong>Analista Desarrollador</strong> en una empresa dedicada al Medio Ambiente en Chile.
+                    <br>
+                    <br>
+                    Me encanta la programación y la tecnologia. y estar en constante aprendizaje. Además como hobby, me
+                    encanta producir musica, y jugar video juegos en mis tiempos libres.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas doloremque ipsam dicta et
+                    deleniti inventore neque impedit atque, similique, libero possimus quaerat nemo nostrum itaque sunt
+                    soluta. Quaerat, itaque quisquam?
+                </p>
+                <button class="btn btn-dark"> <i class="bi bi-arrow-down-circle-fill"></i> Descargar CV</button>
             </div>
         </div>
 
     </section>
 
     <!-- CONTACTO  -->
-    <section class="container-fluid bg-secondary-subtle">
+    <section class="container-fluid bg-secondary-subtle" id="contacto">
         <div class="row justify-content-center">
             <div class="col-md-6 d-none d-md-block">
                 <img src="assets/img/logo-mv.png" alt="" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <h1>Contacto</h1>
+                <h1 class="ms-5 mt-5">Contacto</h1>
 
                 <form class="row g-3 p-5">
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-md-6 form-floating mb-3">
                         <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido" required>
                         <label for="nombre" class="form-label">Nombre</label>
                     </div>
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-md-6 form-floating mb-3">
                         <input type="text" class="form-control" id="apellido" placeholder="Nombre y Apellido" required>
                         <label for="apellido" class="form-label">Apellido</label>
                     </div>
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-md-6 form-floating mb-3">
                         <input type="text" class="form-control" id="asunto" placeholder="Asunto" required>
                         <label for="asunto" class="form-label">Asunto</label>
                     </div>
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-md-6 form-floating mb-3">
                         <input type="email" class="form-control" id="email" placeholder="Correo" required>
                         <label for="email" class="form-label">Correo</label>
 
@@ -418,15 +464,6 @@
         </div>
 
     </section>
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
