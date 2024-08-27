@@ -1,0 +1,38 @@
+.color-bg {
+  background-color: #011638;
+}
+
+.color-bg-1 {
+  background-color: #203358;
+}
+.default-font {
+  font-family: "Anek Devanagari", sans-serif;
+  color: #f7fafd;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+/* MEDIA QUERY MD  */
+@media (min-width: 768) {
+  main {
+    height: calc(80vh - 3rem);
+  }
+}
+
+/* MEDIA QUERY XL  */
+@media (min-width: 1200px) {
+  main {
+    height: calc(100vh - 3rem);
+  }
+  section {
+    height: 100vh;
+  }
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: calc(40vh - 3rem);
+  }
+}
