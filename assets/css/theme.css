@@ -1,14 +1,66 @@
+/* ===== BACKGROUNDS =====  */
+
 .color-bg {
-  background-color: #011638;
+  background-color: #292f36;
 }
 
 .color-bg-1 {
-  background-color: #203358;
+  background-color: #1a1e23;
 }
+
+/* ===== TEXT =====  */
+
 .default-font {
-  font-family: "Anek Devanagari", sans-serif;
-  color: #f7fafd;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
 }
+.default-span {
+  color: #12f7d6;
+}
+.default-sub-title {
+  color: #0fd8b8;
+}
+
+.text-etiqueta {
+  background-color: #43454d;
+}
+
+/* ===== BUTTONS =====  */
+
+.btn-main {
+  background-color: #12f7d6;
+  color: #292f36;
+  border-radius: 30px;
+}
+.btn-main:hover {
+  background-color: #0fd8b8;
+  color: #292f36;
+}
+.btn-main:active {
+  background-color: #0fd8b8 !important; /* Color para cuando el botón está presionado */
+  color: #292f36 !important;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2); /* Efecto de profundidad al presionar */
+}
+
+.btn-sec {
+  background-color: #43454d;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #12f7d6;
+}
+.btn-sec:hover {
+  background-color: #383a40;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #12f7d6;
+}
+.btn-sec:active {
+  background-color: #383a40 !important; /* Color para cuando el botón está presionado */
+  color: #fff !important;
+  border: 1px solid #12f7d6 !important;
+}
+
+/* ===== VISUAL =====  */
 
 main {
   margin-top: 3rem;
