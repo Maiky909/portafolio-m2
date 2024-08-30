@@ -200,9 +200,6 @@ main {
 
 /* MEDIA QUERY XXL  */
 @media (min-width: 1400px) {
-  .tecnologia {
-    height: 100vh;
-  }
   .time-line {
     padding-left: 10%;
   }
