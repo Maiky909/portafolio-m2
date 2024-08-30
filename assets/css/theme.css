@@ -162,6 +162,10 @@ main {
   .experiencia {
     height: auto;
   }
+  .texto-work {
+    max-width: 50%;
+  }
+
   .time-line {
     padding-left: 20%;
   }
@@ -202,5 +206,8 @@ main {
 @media (min-width: 1400px) {
   .time-line {
     padding-left: 10%;
+  }
+  .proyectos {
+    height: auto;
   }
 }

@@ -9,6 +9,9 @@ main {
   border-bottom: 5px solid #0fd8b8;
   width: 30%;
 }
+.texto-work {
+  max-width: 80%;
+}
 
 .timeline {
   border-left: 2px solid #fff;
@@ -26,9 +29,6 @@ main {
   position: absolute;
   display: block;
   top: 0;
-}
-.texto-work {
-  max-width: 50%;
 }
 
 .timeline .timeline-icon {
